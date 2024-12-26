@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-1:#d4eaf7;
+    --primary-2:#b6ccd8;
+    --primary-3:#3b3c3d;
+    --accent-1:#71c4ef;
+    --accent-2:#00668c;
+    --text-1:#1d1c1c;
+    --text-2:#313d44;
+    --bg-1:#fffefb;
+    --bg-2:#f5f4f1;
+    --bg-3:#cccbc8;
+    --title: "Libre Franklin", serif;
+    --description: "Mulish", serif;
+    --title-size: 2.4rem;
+    --description-size: 1.6rem;
+}
+
+body{
+    background-color: var(--bg-1);
+    overflow-x: hidden;
+    font-family: var(--description);
+}
+
+h1{
+    font-family: var(--title);
+    font-size: var(--title-size);
+    color: var(--text-1);
+}
+
+p{
+    font-family: var(--description);
+    font-size: var(--description-size);
+    color: var(--text-2);
+}

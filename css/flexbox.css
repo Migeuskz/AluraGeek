@@ -1,0 +1,10 @@
+/* Celulares */
+@media (max-width: 480px) {}
+
+/*tablet */
+@media (max-width:834px) {}
+
+/* Descktop y Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width:1440px) {}
