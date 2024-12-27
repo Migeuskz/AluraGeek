@@ -1,5 +1,52 @@
 /* Celulares */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    /* Header */
+
+    
+
+    .header_search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+    }
+    
+    .header_search input {
+        width: 10rem;
+    }
+    
+    .header_nav{
+        /* border: solid 1px var(--text-1); */
+        text-align: center;
+    }
+
+    .header_nav span{
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+        width: 4rem;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    /* Banner */
+    .banner a {
+        top: 72%;
+    }
+}
 
 /*tablet */
 @media (max-width:834px) {}
