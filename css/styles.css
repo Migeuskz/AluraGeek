@@ -160,7 +160,8 @@ p {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    color: var(--accent-2);
+    /* color: var(--accent-2); */
+    color: var(--bg-1);
     font-size: 3rem;
     font-family: var(--title);
     font-weight: bold;
@@ -203,7 +204,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.8rem;
     flex-wrap: wrap;
     padding: 2rem;
 }
