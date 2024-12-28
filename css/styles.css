@@ -297,3 +297,50 @@ footer{
     height: 5rem;
     gap: 1rem;
 }
+
+/* Formularios */
+.input {
+    background-color: transparent;
+    width: 100%;
+    height: 2.6rem;
+    color: var(--text-1);
+    font-size: 1.1rem;
+    padding-left: .4rem;
+    border-bottom: solid var(--primary-3) 1px;
+}
+
+.input_group {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* margin-bottom: 1.4rem; */
+    /* border: solid red 3px; */
+}
+
+.label_dinamic {
+    position: absolute;
+    top: 50%;
+    left: .4rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent-2);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.input_group_message {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+
+.input:focus+.label_dinamic,
+.input:not(:placeholder-shown)+.label_dinamic {
+    top: -0.8rem;
+    /* Sube el label */
+    font-size: 1rem;
+    /* Reduce el tamaño */
+    color: var(--accent-1);
+    /* Cambia el color */
+}

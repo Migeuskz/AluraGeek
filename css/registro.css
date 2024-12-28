@@ -1,0 +1,124 @@
+.products_dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+/* main{
+} */
+
+
+.products_table{
+    width: 60%;
+    border-collapse: collapse; /* Elimina el doble borde */
+    margin: 20px 0; /* Espaciado vertical */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    text-align: left; /* Texto alineado a la izquierda */
+    background-color: #f9f9f9; /* Fondo suave */
+    border: 1px solid #ddd; /* Borde general */
+    /* border: solid 1px var(--accent-2); */
+}
+
+/* Encabezados de la tabla */
+thead th {
+    background-color: var(--accent-2); /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center;
+}
+
+/* Celdas de la tabla */
+td {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde interno */
+    text-align: center;
+    
+}
+
+/* Estilo para imágenes */
+td img {
+    max-width: 100px; /* Tamaño máximo de ancho */
+    height: auto; /* Mantiene proporción */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+/* Enlaces en la tabla */
+td a {
+    color: var(--accent-2); /* Azul para enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    display: flex;
+}
+
+/* Resaltar fila al pasar el mouse */
+tbody tr:hover {
+    background-color: #e9ecef; /* Fondo gris más oscuro */
+    transition: background-color 0.3s ease;
+}
+
+
+.products_form_container h2{
+    margin-bottom: 1.8rem;
+    padding-left: 1rem;
+}
+
+.products_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    position: fixed;
+    width: 25%;
+    font-size: 1.1rem;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: 1.8rem;
+}
+
+.edit,
+.delete{
+    /* border:red 3px solid; */
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: .4rem;
+}
+
+.edit{
+    background-color: var(--accent-2);
+    color: var(--bg-1);
+    transition: ease-in-out 0.3s;
+}
+
+.edit:hover{
+    cursor: pointer;
+    background-color: var(--accent-1);
+}
+
+.delete{
+    background-color: var(--accent-3);
+    color: var(--bg-1);
+    transition: ease-in-out 0.3s;
+    background-color: red;
+}
+
+.delete:hover{
+    cursor: pointer;
+    background-color: var(--primary-3);
+}
