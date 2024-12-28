@@ -67,7 +67,7 @@
 
         <section id="products" class="products_dashboard">
 
-            <table border="1" class="products_table">
+            <table border="1" class="products_table" data-lista-tabla>
                 <thead>
                     <tr>
                         <th>Imagen</th>
@@ -79,7 +79,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td>
                             <img src="https://m.media-amazon.com/images/I/71WR45NFLgL._AC_SX679_.jpg" alt="Producto 1" style="width: 100px; height: auto;">
                         </td>
@@ -115,7 +115,7 @@
                                 </button>
                             </div>
                         </td>
-                    </tr>
+                    </tr> -->
                     <!-- Puedes agregar más filas aquí -->
                 </tbody>
             </table>
@@ -123,8 +123,8 @@
 
             <div class="products_form_container">
 
-                <h2>Agregar producto</h2>
                 <form action="" class="products_form">
+                    <h2>Agregar producto</h2>
                     <div class="input_group">
                         <input type="text" name="product" id="product" class="input" placeholder="" required>
                         <label for="product" class="label_dinamic">Titulo</label>
@@ -155,6 +155,7 @@
             </div>
         </section>
     </main>
+    <script src="../js/mostrarProductos.js" type="module"></script>
 </body>
 
 </html>

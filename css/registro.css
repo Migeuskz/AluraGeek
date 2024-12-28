@@ -6,6 +6,8 @@
     gap: 1.8rem;
     flex-wrap: wrap;
     padding: 2rem;
+    position: relative;
+    left: -15%;
 }
 /* main{
 } */
@@ -73,8 +75,9 @@ tbody tr:hover {
 
 
 .products_form_container h2{
-    margin-bottom: 1.8rem;
+    /* margin-bottom: 1.8rem; */
     padding-left: 1rem;
+    font-size: 1.8rem;
 }
 
 .products_form{
