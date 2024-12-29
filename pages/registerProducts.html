@@ -123,30 +123,30 @@
 
             <div class="products_form_container">
 
-                <form action="" class="products_form">
+                <form action="" class="products_form" data-formulario-producto>
                     <h2>Agregar producto</h2>
                     <div class="input_group">
-                        <input type="text" name="product" id="product" class="input" placeholder="" required>
+                        <input type="text" name="product" id="product" class="input" data-titulo placeholder="" required>
                         <label for="product" class="label_dinamic">Titulo</label>
                     </div>
 
                     <div class="input_group">
-                        <input type="number" name="descount" id="descount" class="input" placeholder="">
+                        <input type="number" name="descount" id="descount" class="input" placeholder="" data-descuento>
                         <label for="descount" class="label_dinamic">Descuento</label>
                     </div>
 
                     <div class="input_group">
-                        <input type="number" name="price" id="price" class="input" placeholder="">
+                        <input type="number" name="price" id="price" class="input" placeholder="" data-precio>
                         <label for="price" class="label_dinamic">Precio</label>
                     </div>
 
                     <div class="input_group">
-                        <input type="text" name="url_product" id="url_product" class="input" placeholder="" required>
+                        <input type="text" name="url_product" id="url_product" class="input" placeholder="" required data-urlProducto>
                         <label for="url_product" class="label_dinamic">url del producto</label>
                     </div>
 
                     <div class="input_group">
-                        <input type="text" name="url_img" id="url_img" class="input" placeholder="" required>
+                        <input type="text" name="url_img" id="url_img" class="input" placeholder="" required data-urlImagen>
                         <label for="url_img" class="label_dinamic">url de la imagen</label>
                     </div>
 
@@ -156,6 +156,7 @@
         </section>
     </main>
     <script src="../js/mostrarProductos.js" type="module"></script>
+    <script src="../js/crearProducto.js" type="module"></script>
 </body>
 
 </html>

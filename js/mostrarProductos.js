@@ -10,7 +10,7 @@ export default function crearProducto(titulo, descuento, precio, urlProducto, ur
             <img src="${urlImagen}" alt="Producto ${titulo}">
             <div>
                 <h3>${titulo}</h3>
-                <p><span>${descuento ? `-${descuento}%` : ""}</span> ${precio}</p>
+                <p><span>${descuento ? `-${descuento}%` : ""}</span> $${precio}</p>
             </div>
             <a href="${urlProducto}" class="btn" target="_blank">Ir a comprar</a>
         `;
