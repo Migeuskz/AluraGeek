@@ -37,7 +37,6 @@ section {
 
 main {
     margin-top: 5rem;
-    /* border: solid red 3px; */
 }
 
 h1,
@@ -84,11 +83,6 @@ p {
 }
 
 
-.header_nav:hover {
-    color: var(--bg-1);
-    background-color: var(--accent-1);
-
-}
 
 .header_search {
     display: flex;
@@ -133,7 +127,7 @@ p {
     color: var(--bg-1);
     text-decoration: none;
     /* padding: .6rem 1.5rem; */
-    width: 10rem;
+    width: 18rem;
     height: 2.4rem;
     border-radius: .8rem;
     transition: ease-in-out 0.3s;
@@ -142,9 +136,69 @@ p {
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    /* border: solid red 3px; */
+}
+
+/* .header_nav:hover {
+    color: var(--bg-1);
+    background-color: var(--accent-1);
+    
+} */
+
+.user_link{
+    background-color: transparent;
+    transition: ease-in-out 0.3s;
+    border-radius: .4rem;
+    /* width: 16rem; */
+    padding: .2rem .2rem;
+}
+
+.user_link:hover {
+    color: var(--bg-1);
+    background-color: var(--accent-1);
+}
+
+.logout_link{
+    background-color: transparent;
+    transition: ease-in-out 0.3s;
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.logout_link:hover {
+    color: var(--bg-1);
+    background-color: var(--accent-1);
 }
 
 
+
+.header_user {
+    /* border: solid green 3px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_user a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--bg-1);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header_user a:hover {
+    color: var(--bg-1);
+    transition: ease-in-out 0.3s;
+    /* transform: scale(1.1); */
+}
+
+.header_user .icon {
+    width: 24px;
+    height: 24px;
+}
 
 /* Banner */
 .banner {
